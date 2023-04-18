@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>
+            Survey Form
+        </title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <div class="heading">
+            <h1 id="head">Survey Form</h1>
+            <h2 id="subheading"><i>Thankyou for taking the time to help us improve the platform</i></h2><br>
+        </div>
+        <form action="#"  onsubmit="return validation()" >
+            <div id="content1">
+                <label>Username: </label><br><br>
+                <input type="text" name="user" placeholder="Enter your name" class="box" id="username">
+                <span id="usernameid"></span><br>
+                <label>Email:</label><br><br>
+                <input type="text" name="femail" placeholder="Enter your email id" class="box" id="emailids">
+                <span id="imp" ></span><br>
+                <label>Phone Number:</label><br><br>
+                <input type="Phone Number" name="Phone Number" placeholder="Enter Phone Number" class="box" id="numbermobile"><span id="mobilenumber"></span><br>
+                <label >Gender:</label>
+                <label>Male</label><input type="radio" name="gender" id="male" class="gender_1" value="male">
+                <label >Female</label><input type="radio" name="gender"  class="gender_1" value="female"><br>
+                <br><label>Age:</label><br><br>
+                <input type="age" name="age" placeholder="Enter your age" class="box">
+                <label class="lab">Which option best describes for our product?</label><br><br> 
+            <div id="optional">
+                <select>
+                    <option name="Select the option">Select the option</option>
+                    <option value="Quality Of Product">Quality Of Product</option>
+                    <option value="Brand Of Product">Brand Of Product</option>
+                    <option value="Services Of Product">Services Of Product</option>
+                </select>
+            </div>
+                <label>Address:</label><br><br>
+                <textarea placeholder="Enter Your Comments....."></textarea> <br>
+            <div><input type="submit" class="button" name="submit" value="Submit"></div>
+            </div>
+            </div>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>

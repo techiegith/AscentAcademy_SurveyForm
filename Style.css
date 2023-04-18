@@ -1,0 +1,124 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+body{
+    background-image: url(360_F_221015225_qQleIfOQblhag8xJCU6E3UiM3GNftilZ.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-blend-mode: multiply;
+    font-size:0.9rem;
+    font-family: 'Poppins',sans-serif;
+}
+.heading{
+    text-align: center;
+    width: 100%;
+    margin:auto;
+    color:rgba(172, 18, 219, 0.75);
+    color: rgb(17, 17, 17);
+}
+#head{
+    font-size: 1.9rem;
+}
+#subheading{
+    font-size:20px;
+    margin-top: 10px;
+}
+#content1{
+    width:78%;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.922);
+    padding-top: 24px;
+    padding-left: 0px;
+    padding-right: 70px;
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    margin-top:06px;
+    padding-bottom: 40px;
+    box-shadow: 10px 10px 5px rgba(255, 0, 0, 0.75);
+    background-attachment: fixed;
+    width:320px;
+    height:468px;
+    align-content: center;
+}
+form .box{
+    width:300px;
+    height:2rem;
+    position: relative;
+    bottom: 10px;
+    border:10;
+    border-radius:15px;
+    margin: auto;
+    font-size: 1.2rem;
+}
+#optional select{
+    width:300px;
+    height:1.8rem;
+    position:relative;
+    bottom:10px;
+    border-radius: 15px;
+    border:10;
+}
+textarea{
+    width:300px;
+    height: 35px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 14px;
+    font-size: 1.2rem;
+}
+textarea::placeholder{
+    font-size:0.8rem;
+    position:relative;
+    top:5px;
+    left:5px;
+    width: 50%;
+}
+input::placeholder{
+    font-size: 1rem;
+    position:relative;
+    width:200px;
+    font-weight:400;
+
+}
+.button{
+    width:100px;
+    height:1.7rem;
+    background-color: rgb(249, 61, 61);
+    border: 05;
+    color: rgb(255,255,25555);
+    cursor: pointer;
+    font-family:cursive;
+    border-radius: 20px;
+    font-family:'Combo';
+    margin-left: 100px;
+    margin-top:5px ;
+    font-size: 1rem;
+}
+.button:hover{
+    background-color:rgb(0, 111, 92);
+    border-color: aqua;
+        }
+.box{
+    padding: 10px;
+}
+#usernameid{
+    font-size: 10.5px;
+    color: rgb(209, 7, 7);
+    font-weight: bolder;
+}
+#imp{
+    font-size: 11px;
+    color: rgb(209, 7, 7);
+    font-weight: bolder;
+}
+#mobilenumber{
+    font-size: 11px;
+    color: rgb(209, 7, 7);
+    font-weight: bolder;
+}
